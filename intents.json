@@ -1,0 +1,132 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "introduction",
+      "patterns": ["Tell me about yourself", "Introduce yourself"],
+      "responses": [
+        "I am an educational chatbot here to answer your questions about various topics.",
+        "I'm your friendly educational assistant. Feel free to ask me anything!"
+      ]
+    },
+    {
+      "tag": "mathematics",
+      "patterns": ["Tell me about mathematics", "Math topics"],
+      "responses": ["Mathematics is the study of numbers, quantities, and shapes. It covers a wide range of topics such as algebra, calculus, and geometry."]
+    },
+    {
+      "tag": "history",
+      "patterns": ["History lessons", "Tell me about history"],
+      "responses": ["History is the study of past events and human experiences. It includes topics like ancient civilizations, world wars, and more."]
+    },
+    {
+      "tag": "science",
+      "patterns": ["Science topics", "Tell me about science"],
+      "responses": ["Science explores the natural world and how it works. It includes branches like biology, chemistry, and physics."]
+    },
+    {
+      "tag": "homework",
+      "patterns": ["I need help with my homework", "Homework assistance"],
+      "responses": ["Sure, I can help you with your homework. Please provide me with the details of your assignment."]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": ["Study tips", "How to study effectively"],
+      "responses": ["Here are some study tips: create a study schedule, take breaks, use flashcards, and practice active learning."]
+    },
+    {
+      "tag": "online_courses",
+      "patterns": ["Online courses", "Recommend online classes"],
+      "responses": ["There are many online platforms offering courses. Some popular ones are Coursera, edX, and Khan Academy."]
+    },
+    {
+      "tag": "educational_resources",
+      "patterns": ["Educational resources", "Where to find study materials"],
+      "responses": ["You can find educational resources at libraries, online platforms, and educational websites."]
+    },
+    {
+      "tag": "exams",
+      "patterns": ["Exam preparation", "Upcoming exams"],
+      "responses": ["Preparing for exams? Make sure to review your notes, solve practice questions, and manage your time effectively."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
